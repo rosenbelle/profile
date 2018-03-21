@@ -1,0 +1,147 @@
+body {
+    background: #FBFBF2;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+
+h1 {
+  color: #FF5D73;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Istok Web', sans-serif
+}
+
+.festivalhead {
+  color: #17BEBB ;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Istok Web', sans-serif;
+ }
+
+h2{
+  color: #17BEBB ;
+  font-size: 19px;
+  font-weight: 300;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+h3 {
+  color: #17BEBB;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+a{
+  color: #FF5D73;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #17BEBB;
+  text-decoration: none;
+}
+
+/* First simple components */
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+}
+.card {
+  background: white;
+  padding: 50px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+  text-align: center;
+}
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+.btn-red {
+  background-color: #FF5D73;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/*.btn-red:hover {
+  background-color: #FF5D73;
+  color: white;
+}*/
+
+
+
+/* Specific CSS rules */
+
+/*.container img {
+    width: 90%;
+    height: auto;
+}
+*/
+
+.avatar-lg {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.festivalimg {
+  border-radius: 5%;
+  width: 400px;
+  height: auto;
+  padding: 10;
+}
+
+.festivaltext {
+  width: 40%;
+  padding: 10;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
